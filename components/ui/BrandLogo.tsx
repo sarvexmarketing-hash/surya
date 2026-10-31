@@ -18,9 +18,9 @@ export default function BrandLogo({
   const isGold = variant === "gold";
 
   return (
-    <div className={cn("flex items-center gap-2.5 sm:gap-3.5 group select-none shrink-0", className)}>
+    <div className={cn("flex items-center gap-2 sm:gap-3 group select-none shrink-0 min-w-0", className)}>
       {/* Luxury Royal Crest / Sun Monogram */}
-      <div className="relative w-8 h-8 sm:w-10 sm:h-10 rounded-full flex items-center justify-center shrink-0 transition-transform duration-500 group-hover:scale-105">
+      <div className="relative w-7 h-7 sm:w-9 sm:h-9 rounded-full flex items-center justify-center shrink-0 transition-transform duration-500 group-hover:scale-105">
         <svg
           viewBox="0 0 100 100"
           className="w-full h-full fill-none"
@@ -93,10 +93,10 @@ export default function BrandLogo({
       </div>
 
       {/* Brand Typographic Wordmark with strict nowrap protection */}
-      <div className="flex flex-col text-left whitespace-nowrap">
+      <div className="flex flex-col text-left whitespace-nowrap min-w-0">
         <span
           className={cn(
-            "font-serif text-[15px] sm:text-lg md:text-xl font-bold uppercase transition-colors leading-tight tracking-[0.14em] sm:tracking-[0.2em]",
+            "font-serif text-[13px] sm:text-[16px] md:text-xl font-bold uppercase transition-colors leading-tight tracking-[0.1em] sm:tracking-[0.18em]",
             isLight
               ? "text-white"
               : isGold
@@ -109,11 +109,11 @@ export default function BrandLogo({
         {showTagline && (
           <span
             className={cn(
-              "text-[8px] sm:text-[9.5px] uppercase font-medium tracking-[0.2em] sm:tracking-[0.32em] mt-0.5 sm:mt-1 transition-colors",
+              "text-[7px] sm:text-[8.5px] uppercase font-medium tracking-[0.14em] sm:tracking-[0.24em] mt-0.5 sm:mt-1 transition-colors whitespace-nowrap",
               isLight ? "text-[#DFCA9E]/90" : "text-[#C6A56B]"
             )}
           >
-            <span className="sm:inline">&amp; CONVENTION HALL</span>
+            <span className="inline">&amp; CONVENTION HALL</span>
             <span className="hidden sm:inline"> &bull; WARANGAL</span>
           </span>
         )}

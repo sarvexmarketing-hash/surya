@@ -47,18 +47,18 @@ export default function Hero() {
       <div className="absolute top-28 left-6 right-6 bottom-8 pointer-events-none hidden lg:block border border-[#C6A56B]/15 rounded-3xl" />
 
       {/* Hero Main Content */}
-      <div className="relative z-10 container mx-auto px-4 sm:px-8 lg:px-16 pt-20 sm:pt-28 pb-10 sm:pb-16 flex flex-col justify-end h-full max-w-full">
+      <div className="relative z-10 container mx-auto px-4 sm:px-8 lg:px-16 pt-20 sm:pt-28 pb-8 sm:pb-16 flex flex-col justify-end h-full max-w-full">
         <div className="max-w-4xl">
           {/* Eyebrow Pill — Warangal's Best Resort */}
           <motion.div
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="flex items-center gap-2 mb-3.5 sm:mb-5 max-w-full"
+            className="flex items-center gap-2 mb-3 sm:mb-5 max-w-full"
           >
-            <div className="inline-flex items-center gap-1.5 sm:gap-2 bg-[#0A211B]/85 backdrop-blur-md px-3.5 sm:px-4 py-1.5 rounded-full border border-[#C6A56B]/40 max-w-full shadow-lg">
-              <Compass size={12} className="text-[#DFCA9E] shrink-0" />
-              <span className="text-[#DFCA9E] text-[10px] sm:text-[11.5px] uppercase tracking-[0.18em] sm:tracking-[0.28em] font-semibold whitespace-nowrap overflow-hidden text-ellipsis">
+            <div className="inline-flex items-center gap-1.5 sm:gap-2 bg-[#0A211B]/85 backdrop-blur-md px-3 sm:px-4 py-1.5 rounded-full border border-[#C6A56B]/40 max-w-full shadow-lg">
+              <Compass size={11} className="text-[#DFCA9E] shrink-0" />
+              <span className="text-[#DFCA9E] text-[9.5px] sm:text-[11.5px] uppercase tracking-[0.14em] sm:tracking-[0.28em] font-semibold whitespace-nowrap overflow-hidden text-ellipsis">
                 WARANGAL&apos;S BEST RESORT &bull; TIMMAPUR
               </span>
             </div>
@@ -69,7 +69,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 25 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, delay: 0.35 }}
-            className="font-serif text-[34px] sm:text-5xl md:text-6xl lg:text-[76px] font-semibold text-white leading-[1.1] sm:leading-[1.06] tracking-tight mb-4 sm:mb-6"
+            className="font-serif text-[28px] xs:text-[34px] sm:text-5xl md:text-6xl lg:text-[76px] font-semibold text-white leading-[1.12] sm:leading-[1.06] tracking-tight mb-3 sm:mb-6"
           >
             Make Every Moment <br />
             <span className="italic font-normal text-gold-gradient font-accent">
@@ -82,7 +82,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.5 }}
-            className="text-white/85 text-sm sm:text-base md:text-xl font-light leading-relaxed mb-6 sm:mb-8 max-w-2xl"
+            className="text-white/85 text-xs sm:text-base md:text-xl font-light leading-relaxed mb-5 sm:mb-8 max-w-2xl"
           >
             Discover a relaxing resort experience and a welcoming venue for your special celebrations at Suraj Resorts &amp; Convention Hall.
           </motion.p>
@@ -92,18 +92,18 @@ export default function Hero() {
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.65 }}
-            className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 mb-8 sm:mb-10 w-full sm:w-auto"
+            className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5 sm:gap-4 mb-6 sm:mb-10 w-full sm:w-auto"
           >
             <button
               onClick={scrollToExplore}
-              className="w-full sm:w-auto text-center bg-[#C6A56B] hover:bg-[#E5D2AB] text-[#0A211B] px-7 py-3.5 sm:py-4 rounded-full text-xs uppercase tracking-[0.2em] font-bold transition-all duration-300 shadow-xl hover:scale-105 active:scale-95"
+              className="w-full sm:w-auto text-center bg-[#C6A56B] hover:bg-[#E5D2AB] text-[#0A211B] px-6 py-3 sm:py-4 rounded-full text-xs uppercase tracking-[0.2em] font-bold transition-all duration-300 shadow-xl hover:scale-105 active:scale-95"
             >
               Explore the Resort
             </button>
 
             <button
               onClick={() => openModal()}
-              className="w-full sm:w-auto text-center bg-white/10 hover:bg-white/20 text-white backdrop-blur-md border border-[#C6A56B]/50 px-7 py-3.5 sm:py-4 rounded-full text-xs uppercase tracking-[0.2em] font-semibold transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2"
+              className="w-full sm:w-auto text-center bg-white/10 hover:bg-white/20 text-white backdrop-blur-md border border-[#C6A56B]/50 px-6 py-3 sm:py-4 rounded-full text-xs uppercase tracking-[0.2em] font-semibold transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2"
             >
               <span>Plan Your Event</span>
               <span className="text-[#DFCA9E]">&rarr;</span>

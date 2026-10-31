@@ -78,12 +78,12 @@ export default function Navbar() {
               : "bg-gradient-to-b from-black/85 via-black/45 to-transparent py-3 sm:py-5"
           )}
         >
-          <div className="container mx-auto px-3.5 sm:px-6 lg:px-12 flex items-center justify-between gap-2 max-w-full">
+          <div className="container mx-auto px-3 sm:px-6 lg:px-12 flex items-center justify-between gap-2 max-w-full">
             {/* Brand Logo with Royal Crest */}
             <Link
               href="/"
               onClick={() => setIsMobileMenuOpen(false)}
-              className="flex items-center shrink-0 min-w-0"
+              className="flex items-center shrink-0 min-w-0 py-0.5"
             >
               <BrandLogo
                 variant={showDarkNavbar ? "dark" : "light"}
