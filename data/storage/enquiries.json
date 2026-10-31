@@ -1,0 +1,46 @@
+[
+  {
+    "id": "SR-2026-1001",
+    "name": "Rameshwar Rao",
+    "phone": "+91 98490 12345",
+    "email": "rameshwar@example.com",
+    "enquiryType": "Convention Hall & Wedding",
+    "requestedDate": "2026-11-20",
+    "guestCount": "450 Guests",
+    "arrangements": "Hall + Lawn Setup",
+    "message": "Looking for wedding ceremony and evening reception hall setup with dining area.",
+    "status": "New",
+    "createdAt": "2026-10-31T12:00:00.000Z",
+    "source": "Convention Page"
+  },
+  {
+    "id": "SR-2026-1002",
+    "name": "Pooja Reddy",
+    "phone": "+91 99887 65432",
+    "enquiryType": "Room Stay & Pool",
+    "requestedDate": "2026-11-08",
+    "checkOutDate": "2026-11-10",
+    "guestCount": "4 Adults, 2 Children",
+    "roomsCount": "2 Rooms",
+    "message": "Family weekend getaway with pool access.",
+    "status": "Contacted",
+    "notes": "Discussed room availability on WhatsApp, waiting for final dates.",
+    "createdAt": "2026-10-30T16:30:00.000Z",
+    "source": "Modal"
+  },
+  {
+    "id": "SR-2026-1003",
+    "name": "Suresh Chandra",
+    "phone": "+91 94401 98765",
+    "enquiryType": "Birthday Celebration",
+    "requestedDate": "2026-11-15",
+    "guestCount": "60 Guests",
+    "arrangements": "Poolside Lawn Setup",
+    "message": "1st birthday party celebration in the evening.",
+    "status": "Confirmed",
+    "notes": "Advance received for evening lawn booking.",
+    "createdAt": "2026-10-29T10:15:00.000Z",
+    "source": "Estimator"
+  }
+]
+
